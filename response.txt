@@ -1,0 +1,32 @@
+%Ueberauth.Auth{
+credentials: %Ueberauth.Auth.Credentials{
+  expires: true,
+  expires_at: 5121434, other: %{}, refresh_token: nil, scopes: [""],
+  secret: nil,
+  token: "EAAQ4jbNhyEkBANROHlIrKMTZCc7026fpYUZAOrZB3AaXDnTQnnoZAAprz3h3upPnGTbZCmAeiAL0QKNOO7IZBp0dsIYHgugcYFYph5tC0k0wv1OVhDfW37dRL4PDWsX9MG1LSa4ttr4rs6JWYWZAJpwfhstcXIhE6fViraAqqFzZBwZDZD",
+  token_type: nil
+  },
+ extra: %Ueberauth.Auth.Extra{
+ raw_info: %{token: %OAuth2.AccessToken{access_token: "EAAQ4jbNhyEkBANROHlIrKMTZCc7026fpYUZAOrZB3AaXDnTQnnoZAAprz3h3upPnGTbZCmAeiAL0QKNOO7IZBp0dsIYHgugcYFYph5tC0k0wv1OVhDfW37dRL4PDWsX9MG1LSa4ttr4rs6JWYWZAJpwfhstcXIhE6fViraAqqFzZBwZDZD",
+     client: %OAuth2.Client{authorize_url: "https://www.facebook.com/dialog/oauth",
+      client_id: "1188081157916745",
+      client_secret: "f1fa2397dc13b460b0af24a6a35ef588", headers: [],
+      params: %{"client_id" => "1188081157916745",
+        "client_secret" => "f1fa2397dc13b460b0af24a6a35ef588",
+        "code" => "AQBBzDl2HvSb_fPeo_YTw_YiIzgn4SnJ-cCKPdSdbRRXS0cH6nN4mdC4SVHostraSxC98QZBgqoBH0k6G8TIIOPuHPWeRMbZFKzDqTATjnZQWc34zr-sTRjkQZoL7UoygxjtqpHKmL8mRzVpWKxQxt3Gokp1toOfx2Z6z_Yh79FzmvPc2qNpDtg2ueuWAM48gb40JzP0S0KblrnqGuBihJVCFSMXfuts274B3Gqn8jgYMuBlK1XhgaGFtOFNeKBb1MZXjDTzL5c-3OZYJi5UVx2fdK6vdyUciGK2awL-hbdSk5iWGT1bxf2EcjhmBcOjbPWS5Mq01JgL9S4rsrHAfsHN",
+        "grant_type" => "authorization_code",
+        "redirect_uri" => "http://cockadoodledo.com:4000/auth/facebook/callback"},
+      redirect_uri: "http://cockadoodledo.com:4000/auth/facebook/callback",
+      site: "https://graph.facebook.com",
+      strategy: Ueberauth.Strategy.Facebook.OAuth, token_method: :post,
+      token_url: "/oauth/access_token"}, expires_at: 5121434,
+     other_params: %{"expires" => "5121434"}, refresh_token: nil,
+     token_type: "Bearer"},
+    user: %{"id" => "124605088010552", "name" => "Jon Blue"}}
+    },
+ info: %Ueberauth.Auth.Info{description: nil, email: nil, first_name: nil,
+  image: "http://graph.facebook.com/124605088010552/picture?type=square",
+  last_name: nil, location: nil, name: "Jon Blue", nickname: nil, phone: nil,
+  urls: %{facebook: nil, website: nil}}, provider: :facebook,
+ strategy: Ueberauth.Strategy.Facebook, uid: "124605088010552"
+ }

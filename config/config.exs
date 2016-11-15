@@ -33,7 +33,11 @@ config :phoenix, :generators,
 
 config :ueberauth, Ueberauth,
   providers: [
-    facebook: { Ueberauth.Strategy.Facebook, [] },
+    facebook: { Ueberauth.Strategy.Facebook, [
+      default_scope: "public_profile,email",
+      profile_fields: "name,email,first_name,last_name",
+      display: "popup"
+    ]},
     github: { Ueberauth.Strategy.Github, [] },
     google: { Ueberauth.Strategy.Google, [] },
     identity: { Ueberauth.Strategy.Identity, [

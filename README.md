@@ -69,6 +69,16 @@ In this example we'll use five strategies:
 
 See [Überauth](https://github.com/ueberauth/ueberauth) for detailed instructions.
 
+Define environment variable SECRET_KEY_BASE with at least 64 characters. For example:
+```shell
+$ export SECRET_KEY_BASE="f1fa2397dc13b460b0af24a6a35ef588f1fa2397dc13b460b0af24a6a35ef58"
+```
+
+For testing in local environment, map your url in the hosts file.
+```
+   127.0.0.1 coockadoodledo.com
+```
+
 ## License
 
 Please see [LICENSE](https://github.com/ueberauth/ueberauth_example/blob/master/LICENSE) for licensing details.

@@ -37,7 +37,7 @@ config :phoenix, :stacktrace_depth, 20
 config :ueberauth_example, UeberauthExample.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "admin",
   database: "ueberauth_example_dev",
   hostname: "localhost",
   pool_size: 10

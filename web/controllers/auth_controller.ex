@@ -28,6 +28,7 @@ defmodule UeberauthExample.AuthController do
   def callback(%{assigns: %{ueberauth_auth: auth}} = conn, _params) do
     case UserFromAuth.find_or_create(auth) do
       {:ok, user} ->
+        IO.inspect user, pretty: true
         conn
         |> put_flash(:info, "Successfully authenticated.")
         |> put_session(:current_user, user)
